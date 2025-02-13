@@ -1,0 +1,4 @@
+{:aliases
+ {:clj-new {:extra-deps {com.github.seancorfield/clj-new {:mvn/version "1.3.415"}}
+            :exec-fn clj-new/create
+            :exec-args {:template "app"}}}}
